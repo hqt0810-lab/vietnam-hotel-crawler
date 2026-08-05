@@ -63,7 +63,7 @@ Cứ để nó chạy. Kết quả tự lưu vào  vietnam_reviews_wX.json  (X l
 --------------------------------------------------------
 BƯỚC 4 — GỬI LẠI KẾT QUẢ
 --------------------------------------------------------
-Chạy xong (hoặc khi được yêu cầu dừng), gửi lại file:
+Chạy xong, gửi lại file:
        vietnam_reviews_wX.json     (X = WORKER_ID)
 
 --------------------------------------------------------
