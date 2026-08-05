@@ -38,6 +38,7 @@ Sửa theo phân công (xem bảng trên): 0, 1, 2, 3 hoặc 4.
 4 người phải để 4 số KHÁC NHAU (1,2,3,4). CHỦ FILE để 0.
 
 (KHÔNG đổi LEAD_COUNT và NUM_WORKERS — mọi người để y nguyên.)
+
 Lưu file.
 
 Mở CMD/PowerShell ngay trong thư mục này rồi chạy:
