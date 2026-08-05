@@ -66,7 +66,6 @@ CHROME_MAIN_VERSION = None
 
 # Đổi sang "www.tripadvisor.com.vn" để lấy giao diện + review tiếng Việt.
 DOMAIN = "www.tripadvisor.com"
-# "all" = mọi ngôn ngữ; "vi" = chỉ tiếng Việt (dùng với .com.vn cho gọn).
 LANG_FILTER = "all"
 
 REVIEW_STEP_FALLBACK = 10
