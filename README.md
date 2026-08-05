@@ -1,7 +1,6 @@
-========================================================
+
  HƯỚNG DẪN CHẠY CRAWL REVIEW
  (CHỦ FILE: 200 hotel đầu | 4 người: chia phần còn lại)
-========================================================
 
 PHÂN CÔNG (tổng 2.425 hotel):
     WORKER_ID = 0  -> CHỦ FILE, crawl 200 hotel ĐẦU
