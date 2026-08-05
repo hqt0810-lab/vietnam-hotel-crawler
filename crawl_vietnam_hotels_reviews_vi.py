@@ -269,7 +269,6 @@ def parse_reviews(soup, hotel_url):
             "trip_type": trip_type,
             "visit_date": visit_date,
             "language": language,
-            "province": PROVINCE,
         })
     return out
 
