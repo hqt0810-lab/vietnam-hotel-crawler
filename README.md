@@ -4,6 +4,7 @@
 --------------------------------------------------------
 
 PHÂN CÔNG (tổng 2.425 hotel):
+    
     WORKER_ID = 0  -> CHỦ FILE, crawl 200 hotel ĐẦU
     
     WORKER_ID = 1  -> Người 1  (~557 hotel)
