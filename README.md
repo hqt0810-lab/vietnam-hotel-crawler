@@ -1,6 +1,7 @@
-
+--------------------------------------------------------
  HƯỚNG DẪN CHẠY CRAWL REVIEW
  (CHỦ FILE: 200 hotel đầu | 4 người: chia phần còn lại)
+--------------------------------------------------------
 
 PHÂN CÔNG (tổng 2.425 hotel):
     WORKER_ID = 0  -> CHỦ FILE, crawl 200 hotel ĐẦU
@@ -26,13 +27,13 @@ Chép NGUYÊN thư mục này sang máy của bạn. Bắt buộc có:
     - vietnam_hotels_link.json
 
 --------------------------------------------------------
-BƯỚC 3 — ĐỔI SỐ CỦA BẠN RỒI CHẠY
+BƯỚC 3 — ĐỔI SỐ RỒI CHẠY
 --------------------------------------------------------
 Mở  crawl_vietnam_reviews.py  bằng Notepad. Tìm gần đầu file dòng:
 
        WORKER_ID = 0
 
-Sửa theo phân công của bạn (xem bảng trên): 0, 1, 2, 3 hoặc 4.
+Sửa theo phân công (xem bảng trên): 0, 1, 2, 3 hoặc 4.
 ** 4 người phải để 4 số KHÁC NHAU (1,2,3,4). CHỦ FILE để 0. **
 (KHÔNG đổi LEAD_COUNT và NUM_WORKERS — mọi người để y nguyên.)
 Lưu file.
@@ -44,17 +45,17 @@ Nếu đúng, dòng đầu sẽ hiện, ví dụ:
        ### NGƯỜI 2/4 -> phụ trách 556 khách sạn (ghi ra vietnam_reviews_w2.json) ###
        (CHỦ FILE sẽ thấy: CHỦ FILE (200 hotel đầu) -> ... vietnam_reviews_w0.json)
 
-Cứ để nó chạy. Kết quả tự lưu vào  vietnam_reviews_wX.json  (X là số của bạn).
+Cứ để nó chạy. Kết quả tự lưu vào  vietnam_reviews_wX.json  (X là số của từng người).
 
 --------------------------------------------------------
 BƯỚC 4 — GỬI LẠI KẾT QUẢ
 --------------------------------------------------------
 Chạy xong (hoặc khi được yêu cầu dừng), gửi lại file:
-       vietnam_reviews_wX.json     (X = WORKER_ID của bạn)
+       vietnam_reviews_wX.json     (X = WORKER_ID)
 
-========================================================
+--------------------------------------------------------
  CÂU HỎI
-========================================================
+--------------------------------------------------------
 * Lỡ tắt máy / đứt mạng giữa chừng?
     -> Cứ chạy lại  python crawl_vietnam_reviews.py.
        Nó TỰ TIẾP TỤC đúng chỗ (kể cả giữa một khách sạn nhiều review).
@@ -65,7 +66,7 @@ Chạy xong (hoặc khi được yêu cầu dừng), gửi lại file:
 
 * Lỗi "session not created ... version"?
     -> Chrome khác phiên bản. Mở file, tìm  CHROME_MAIN_VERSION = None
-       đổi thành số Chrome của bạn, ví dụ  CHROME_MAIN_VERSION = 150
+       đổi thành số Chrome, ví dụ  CHROME_MAIN_VERSION = 150
        (Xem số Chrome ở: chrome://settings/help)
 
 * Bị chặn (hiện trang lạ / Pardon Our Interruption)?
