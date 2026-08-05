@@ -29,7 +29,11 @@ BƯỚC 1 — CÀI ĐẶT (chỉ làm 1 lần)
 BƯỚC 2 — CHÉP FILE
 --------------------------------------------------------
 Chép NGUYÊN thư mục này sang máy của bạn. Bắt buộc có:
-    - crawl_vietnam_reviews.py
+
+    - crawl_vietnam_hotels_reviews.py
+    
+    - crawl_vietnam_hotels_reviews_vi.py
+    
     - vietnam_hotels_link.json
 
 --------------------------------------------------------
