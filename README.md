@@ -5,10 +5,15 @@
 
 PHÂN CÔNG (tổng 2.425 hotel):
     WORKER_ID = 0  -> CHỦ FILE, crawl 200 hotel ĐẦU
+    
     WORKER_ID = 1  -> Người 1  (~557 hotel)
+    
     WORKER_ID = 2  -> Người 2  (~556 hotel)
+    
     WORKER_ID = 3  -> Người 3  (~556 hotel)
+    
     WORKER_ID = 4  -> Người 4  (~556 hotel)
+    
 Mỗi máy ghi ra file riêng, cuối cùng gộp lại thành 1 file.
 
 --------------------------------------------------------
