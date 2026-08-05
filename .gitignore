@@ -1,0 +1,21 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== File trạng thái crawl (KHÔNG cần đẩy lên) =====
+progress_*.json
+*.bak
+*.tmp
+*.json.bak
+*.json.tmp
+
+# ===== Dữ liệu NẶNG (GitHub chặn file > 100MB, cảnh báo > 50MB) =====
+# Nếu KHÔNG muốn đẩy dữ liệu review lớn lên GitHub, giữ nguyên các dòng dưới.
+# Nếu MUỐN đẩy, thêm dấu # ở đầu để vô hiệu hoá.
+*reviews*.json
+
+
+# Nhưng VẪN đẩy danh sách khách sạn (nhẹ) và code:
+!vietnam_hotels_link.json
